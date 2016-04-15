@@ -1,0 +1,684 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>手机流量叠加包（2016）_广东移动</title>
+<meta name="keywords" content="广东移动,广东移动通信,中国移动,中国移动通信,中移动,手机,全球通,神州行,动感地带,集团客户,gotone,easyown,m-zone,infowin,充值、话费,手机流量叠加包（2016）" />
+<meta name="description" content="广东移动产品专区：中国移动广东公司官方网站，包含语音套餐、上网套餐、家庭产品、商务应用、娱乐应用、音乐应用等移动特色产品，为您提供创新体验、便捷办理。" />
+
+<link href="/css/v2012/public/public.css?v=20160223180727" type="text/css" rel="stylesheet"/>
+
+<link href="/css/v2012/products/products.css" type="text/css" rel="stylesheet"/>
+
+<script language="javascript" type="text/javascript" src="/js/v2012/jquery/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="/js/v2012/ui/core.js"></script>
+<script language="javascript" type="text/javascript" src="/js10086/richinfo_search.js"></script>
+<script language="javascript" type="text/javascript" src="/js10086/new10086.js"></script>
+<script language="javascript" type="text/javascript" src="/js/v2012/ui/public.js?v=20151104154241"></script>
+<script language="javascript" type="text/javascript" src="/js/v2012/js_jf/excavator.js?v=20140403143523"></script>
+<script type="text/javascript" src="/v2008/js/common/searchBar.js?v=20121130113350"></script>
+<script language="javascript" type="text/javascript" src="/js/v2012/modules/common/header.js?v=20150415105521"></script>
+<script language="javascript" type="text/javascript" src="/js/v2012/js_jf/cookie.js"></script>
+<script language="javascript" type="text/javascript" src="/js/v2012/modules/commodity/commodity.js"></script>
+<script language="javascript" type="text/javascript">
+var commCode="GRPSDIEJIA";
+var commName="手机流量叠加包（2016）";
+</script> 
+<script async src="http://c.cnzz.com/core.php"></script></head>
+<body type="products,productsCenter">
+<!--头部 开始-->
+<div id="newHeader"></div>
+<script src="/js/v2012/header/loadheader.js"></script>
+<script>loadHeader('newHeader')</script>
+<script language="javascript">
+		var getCookieBranch=function() {
+			var cookieBranch=$.cookie("_a_h_b_c");
+			if(cookieBranch==null||cookieBranch==undefined||$.trim(cookieBranch).length==0||cookieBranch.toLowerCase()=='null'||cookieBranch.toLowerCase()=='undefined'){
+			   cookieBranch='GD'
+			}
+			return cookieBranch;
+		};
+		var cookieBranch=getCookieBranch();    
+</script>
+
+<!--头部 结束  主内容 开始-->
+<section class="container">
+     <!--中间列内容 开始-->
+   <section class="mainContent fr">  	
+<div class="currentPage"><b class="color_1">产品区</b></div>
+   	 <div id="commodity_header_info"> 	    	
+ 		   <section class="intro column">
+                	<div class="fl">
+
+                    	 <div class="img"><img src="/upfile/images/v2012_cms/products/GRPSDIEJIA.jpg?ver=20151230131313" alt="手机流量叠加包（2016）" width="150" /></div>
+                   	   <!--
+                   		<div class="fav">
+                   		<a href="#"  class="btn_150x28 fl"><span>放入收藏</span></a>  
+                        <a href="javascript:void(0);"  onclick="winPop({title:'推荐分享',url:'/include/v2012/public/shareRecommend.shtml',width:700})" class="btn_150x28 fr"><span>推荐分享</span></a>
+                        </div>
+                        -->
+                   </div> 
+                    <div class="desc">
+                    	<h1>手机流量叠加包（2016）</h1>
+                        <div><span class="color_6">价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格：</span><span class="price color_2"><i>10-180元/月 </i></span></div>
+                        <div><span class="color_6">适用品牌：</span><span id="SuitableBrand"></span></div>
+                        <div><span class="color_6">适用地市：</span><span id="SuitableBranch"></span></div>
+                        <div class="optionsDesc" >
+                        	适用于当月临时有较高上网流量需求，可根据需求多次开通，生效后立即扣费，下一月结日自动失效。
+                        </div>
+<div class="shareDiv">
+            <span class="click">点击量： </span>
+            <span class="like" onClick="likeItClick(this);">赞：<i> </i></span>
+            <span class="share" onClick="shareClick(this);">分享：<i> </i></span>
+	    <span class="wei" ><i id="praiseVal"></i></span>
+</div>
+
+<script>
+		//控制分享的js方法----开始-------
+
+		//公共变量
+		var merchantCode = "";
+		var commCode = "";
+		$(document).ready(function(){
+			merchantCode = $("#merchantCode",parent.document).val();
+			commCode = $("#commCode").val();
+			loadWebChannelShareRecord();
+			loadServiceOnline();
+		});
+
+		function likeItClick(o)
+			{
+			var cookieCode = getCookie(commCode+merchantCode);			
+			if (cookieCode!=null && cookieCode!="")
+			  {}
+			else 
+			  {
+			  iLikeIt(o);
+			
+			//增加一条“赞”记录
+			var url = "/commodity/webchannelshare/webChannelShare/addLikeRate.jsps";   
+			 var options = {
+						//async: true,
+						proBar: {
+							isHide: true
+						},
+						data: {
+								"commCode":commCode,
+								"merchantCode":merchantCode
+						},
+						 callBack: function(result){	 
+						}
+					};
+					
+					AjaxRequest.submitDefault(url, options);
+			  
+			    setCookie(commCode+merchantCode,commCode+merchantCode);			    
+			  }
+			}
+
+
+		function shareClick(o){
+			 
+				//alert("添加分享次数");
+				var num = $(o).find('i').html() * 1;
+				$(o).find('i').attr('title', num).html(num);
+
+				//增加一条“分享”记录
+				var url = "/commodity/webchannelshare/webChannelShare/addShareRate.jsps";   
+				 var options = {
+							//async: true,
+							proBar: {
+								isHide: true
+							},
+							data: {
+									"commCode":commCode,
+								"merchantCode":merchantCode
+							},
+							 callBack: function(result){	 
+							}
+						};
+						AjaxRequest.submitDefault(url, options);
+			
+				shareTo(o);				
+		}
+
+		//获取网站渠道分享记录，包括点击次数、点赞次数、分享次数
+		function loadWebChannelShareRecord(){
+			
+			var url = "/commodity/webchannelshare/webChannelShare/getWebChannelShareRecord.jsps";   
+			 var options = {
+						//async: true,
+						proBar: {
+							isHide: true
+						},
+						data: {
+								"commCode":commCode,
+								"merchantCode":merchantCode
+						},
+						 callBack: function(result){
+						 //设置点击人数、点赞人数、分享人数
+							var obj = result.content;
+							  //设置点击量
+							  //加载时点击次数+1
+							  var clickRate = parseInt(obj.clickRate) + 1;
+							  $("div").find(".click").html("点击量："+clickRate);
+							    //设置赞
+							  $("div").find(".like").html("赞：<i>"+obj.like+"</i>");
+							    //设置分享
+							  $("div").find(".share").html("分享：<i>"+obj.share+"</i>");
+							 
+						}
+					};
+					
+					AjaxRequest.submitDefault(url, options);
+			
+		}
+
+	//控制分享的js方法---结束-------
+
+	//cookie的js方法---开始-------
+		
+		function getCookie(c_name)
+			{
+			if (document.cookie.length>0)
+			  {
+			  c_start=document.cookie.indexOf(c_name + "=")
+			  if (c_start!=-1)
+			    { 
+			    c_start=c_start + c_name.length+1 
+			    c_end=document.cookie.indexOf(";",c_start)
+			    if (c_end==-1) c_end=document.cookie.length
+			    return unescape(document.cookie.substring(c_start,c_end))
+			    } 
+			  }
+			return ""
+			}
+
+		function setCookie(c_name,value)
+			{
+			document.cookie=c_name+ "=" +escape(value)
+			}
+		
+		//cookie的js方法---结束-------
+
+	//获取网站渠道在线客服功能入口名称和链接
+		function loadServiceOnline(){
+			
+			var url = "/commodity/webchannelshare/webChannelShare/getServiceOnline.jsps";   
+			 var options = {
+						//async: true,
+						proBar: {
+							isHide: true
+						},
+						data: {
+								"commCode":commCode,
+								"merchantCode":merchantCode
+						},
+						 callBack: function(result){
+						 //设置在线客服功能入口名称、链接地址
+							var obj = result.content;
+							var a = '<a href="javascript:void(0)" onclick="open_wd(\''+obj.linkUrl+'\',\''+obj.serviceName+'\');">'+obj.serviceName+'</a>';
+							$("div").find(".wei").html(a);
+							 
+						}
+					};
+					
+					AjaxRequest.submitDefault(url, options);
+			
+		}
+		
+
+</script>
+			<input type="hidden" name="commCode" id="commCode" value="GRPSDIEJIA"/>
+	<input type="hidden" name="operateCode" id="operateCode" value="QUERY"/>
+	<input type="hidden" name="merchantCode" id="merchantCode" value="GD"/>
+                    	<div class="actionBtn clearfix">
+                    	         <a href="http://gd.10086.cn/pmarketing/preferential/mrk/mrkinfo/tdk.jsps?marketsid=7369" target="_blank" class="btn_150x30"  > <span>客户端8折优惠</span></a>
+                    	         <a href="http://gd.10086.cn/commodity/options/detail/XSJLL.shtml" target="_blank" class="btn_150x30"  > <span>手机流量套餐</span></a>
+                    	</div>          
+                    </div>
+           </section>
+           	 <!--聚合商品开始 -->
+				<section class="column">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0" id="optionsTb" class="tb2">
+				    <thead>
+				      <tr>
+				        <td>产品名称</td>
+				        <td>资费标准</td>
+				        <td>操作</td>
+				      </tr>
+				    </thead>
+				      <tbody>
+					      <tr>
+					        <td class="color_1">手机流量10元叠加包(100M)</td>
+					        <td>
+						  
+							<span class="color_2">10</span>元/次 
+
+					        </td>
+					        <td>
+						        	<a class="btn_150x24" href="/commodity/options/detail/DJB10.shtml"><span>查询</span></a>
+						        
+					        </td>
+					      </tr>
+					      <tr>
+					        <td class="color_1">手机流量20元叠加包(300M)</td>
+					        <td>
+						  
+							<span class="color_2">20</span>元/次 
+
+					        </td>
+					        <td>
+						        	<a class="btn_150x24" href="/commodity/options/detail/DJB20.shtml"><span>查询</span></a>
+						        
+					        </td>
+					      </tr>
+					      <tr>
+					        <td class="color_1">手机流量30元叠加包(500M)</td>
+					        <td>
+						  
+							<span class="color_2">30</span>元/次 
+
+					        </td>
+					        <td>
+						        	<a class="btn_150x24" href="/commodity/options/detail/DJB30.shtml"><span>查询</span></a>
+						        
+					        </td>
+					      </tr>
+					      <tr>
+					        <td class="color_1">手机流量50元叠加包(1G)</td>
+					        <td>
+						  
+							<span class="color_2">50</span>元/次 
+
+					        </td>
+					        <td>
+						        	<a class="btn_150x24" href="/commodity/options/detail/DJB50.shtml"><span>查询</span></a>
+						        
+					        </td>
+					      </tr>
+					      <tr>
+					        <td class="color_1">手机流量70元叠加包(2G)</td>
+					        <td>
+						  
+							<span class="color_2">70</span>元/次 
+
+					        </td>
+					        <td>
+						        	<a class="btn_150x24" href="/commodity/options/detail/DJB70.shtml"><span>查询</span></a>
+						        
+					        </td>
+					      </tr>
+					      <tr>
+					        <td class="color_1">手机流量100元叠加包(3G)</td>
+					        <td>
+						  
+							<span class="color_2">100</span>元/次 
+
+					        </td>
+					        <td>
+						        	<a class="btn_150x24" href="/commodity/options/detail/DJB100.shtml"><span>查询</span></a>
+						        
+					        </td>
+					      </tr>
+					      <tr>
+					        <td class="color_1">手机流量180元叠加包</td>
+					        <td>
+						  
+							<span class="color_2">180</span>元/次 
+
+					        </td>
+					        <td>
+						        	<a class="btn_150x24" href="/commodity/options/detail/XDJB180.shtml"><span>查询</span></a>
+						        
+					        </td>
+					      </tr>
+				    </tbody></table>
+				    
+				</section>
+	</div>
+	<div id="Commodity_Extended_information">
+		    <section class="description">
+		        	<div class="title_6" id="pDecTab">
+		        	<!--业务介绍 资费标准 办理方式 温馨提示 设置使用 常见问题 -->
+		            <a href="javascript:void(0);" class="on"><span> 资费标准</span></a><a href="javascript:void(0);" ><span> 温馨提醒</span></a><a href="javascript:void(0);" ><span>常见问题</span></a>
+		            </div>
+		           	
+		            <div  id="pDecCon">
+		                <div class="content">
+		               	 <p style="margin-left:0cm;">
+	<b><span style="font-family:;font-size:11pt;"><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">号外！即日起，流量叠加包全面升级！套餐内流量全国</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">2/3/4G</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">通用。</span><span></span></span></b> 
+</p>
+<span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">适用于</span><span style="line-height:2;font-family:Microsoft YaHei;color:#ff0000;font-size:14px;">当月临时有较高上网流量需求</span><span style="font-family:;font-size:11pt;"><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">，可根据需求多次开通，生效后立即扣费，下一月结日自动失效。</span></span> 
+<p>
+	<span style="white-space:nowrap;font-size:14px;font-family:'Microsoft YaHei';">2016年6月30日前通过“广东移动10086”客户端办理流量叠加包可享8折专属优惠！</span>
+</p>
+<p>
+	<img alt="" src="/upfile/editor/web/image/2015-12/20151230124156514-480.jpg" /> 
+</p>
+<p>
+	<img alt="" src="/upfile/editor/web/image/2015-12/20151230124135565-609.jpg" /> 
+</p>
+<p style="margin-left:0cm;">
+	<b><span style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?=""><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">套餐说明：</span><span></span></span></b> 
+</p>
+<p style="margin-left:0cm;">
+	<span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">1</span><span style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?=""><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、</span><b><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">生效规则：</span></b><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">办理成功后立即生效，下一月结自动失效；叠加包一旦生效，立即扣费不能取消。同档次或不同档次的叠加包当月均可多次办理。</span></span><span style="FONT-FAMILY: ; FONT-SIZE: 8pt" ?=""><br />
+</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">2</span><span style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?=""><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、</span><b><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">流量封顶规则：</span></b><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">超套餐外流量费用达到</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">500</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">元后不再扣费；另外，超套餐外流量达到</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">15G</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">自动关闭上网功能，如需继续使用，请办理叠加包恢复（注意会继续产生套餐外费用）。当月总流量达到</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">50G</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">即自动关闭上网功能，下一月结日自动恢复（全球通</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">1</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">日）。</span></span><span style="FONT-FAMILY: ; FONT-SIZE: 8pt" ?=""><br />
+</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">3</span><span style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?=""><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、</span><b><span style="line-height:2;font-family:Microsoft YaHei;color:black;font-size:14px;">并存规则：</span></b><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">已开通流量保障服务（原：安心计划）的用户可办理流量叠加包，互相不影响。</span></span><span style="FONT-FAMILY: ; FONT-SIZE: 8pt" ?=""></span> 
+</p>
+<p style="margin-left:0cm;">
+	<span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">4</span><span style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?=""><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、</span><b><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">套餐资源说明：</span></b><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">套餐内所包含的服务为优惠业务，均为当月有效；当月未使用部分，系统将在月结日（全球通每月</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">1</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">日）自动清零。</span><span></span></span> 
+</p>
+<p>
+	<span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">5</span><span style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?=""><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、套餐包含的手机流量不支持流量转赠、流量转移等流量共享业务。</span><span></span></span> 
+</p>
+<br />
+		                </div>
+		                <div class="content hide">
+		               	 <p>
+	<span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">1</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、未办理任何手机上网流量套餐（含手机流量日套餐、手机流量月套餐），可以直接办理手机上网流量叠加包 。</span><SPAN style="FONT-FAMILY: ; FONT-SIZE: 8pt" ?> <span></span></span>
+</p>
+<p>
+	<span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">2</span><SPAN style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、手机流量叠加包未计入</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">500</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">元封顶规则内，即订购叠加包的金额可以超过</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">500</span><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">元限制。</span><span></span></span> 
+</p>
+<p>
+	<span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">3</span><SPAN style="FONT-FAMILY: ; FONT-SIZE: 11pt" ?><span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;">、使用已停止办理的手机流量套餐，可以办理该手机流量叠加包，对原套餐不影响。</span><span></span></span> 
+</p>
+		                </div>
+		                <div class="content question hide">
+			               	<ul id="question">
+		                    	<li class="on" >
+		                        <a href="javascript:void(0);">1.&nbsp;&nbsp;原先未办理任何手机上网流量套餐，是否可以直接办理手机上网流量叠加包？</a>  
+		                        <div class="clearfix">
+		                        <span class="color_8 fl">答：</span>
+		                        	<p class="f1"><p>
+	<span style="font-family:宋体;font-size:10pt;">可以。不管客户之前是否有办理手机流量套餐（含手机流量日套餐、手机流量月套餐），均可申请叠加包。</span>
+</p></p>
+		                        </div>
+		                        </li>
+		                    	<li class="on" >
+		                        <a href="javascript:void(0);">2.&nbsp;&nbsp;手机流量叠加套餐是否计入500元封顶规则内？</a>  
+		                        <div class="clearfix">
+		                        <span class="color_8 fl">答：</span>
+		                        	<p class="f1"><p>
+	<span style="font-family:宋体;font-size:10pt;"> </span> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;line-height:1.5;letter-spacing:0px;">
+	<span style="font-size:10pt;color:#003366;font-family:宋体;">一次性叠加包套餐费不包含在500元封顶范围之内，也即客户订购叠加包的金额可以超过500元限制。</span> 
+</p>
+<p>
+	<br />
+</p></p>
+		                        </div>
+		                        </li>
+		                    	<li class="on" >
+		                        <a href="javascript:void(0);">3.&nbsp;&nbsp;目前使用的是之前已停止办理的手机流量套餐，能否再办理该手机流量叠加套餐？办理后是否对原套餐会有影响？</a>  
+		                        <div class="clearfix">
+		                        <span class="color_8 fl">答：</span>
+		                        	<p class="f1"><p>
+	<span style="font-family:宋体;font-size:10pt;">可以办理。</span><SPAN style="FONT-FAMILY: ; FONT-SIZE: 10pt" ?=""></span> 
+</p></p>
+		                        </div>
+		                        </li>
+	                   		</ul>
+		                </div>
+		            </div>
+		 </section>
+	</div>
+         <script language="javascript" type="text/javascript">
+			tabSwitch({tab:'#pDecTab',content:'#pDecCon',evt:'click'});
+			jQuery("#question li").click(function(){jQuery(this).toggleClass('on')});
+		 </script> 
+
+</section><!--mainContent-->
+<script language="javascript" type="text/javascript">
+   var baseInfoUrl="/commodity/options/detail/GRPSDIEJIA.shtml";
+   var commImageIcon="";
+    baseInfoUrl = "/commodity/options/detail/GRPSDIEJIA.shtml"; 
+  	commImageIcon = "/upfile/images/v2012_cms/products/GRPSDIEJIA-icon.jpg?ver=20151230131313";
+	var _product_cookie_json={"bizCode":"GRPSDIEJIA","bizName":"手机流量叠加包（2016）","url":baseInfoUrl,"icon":commImageIcon};
+	ProductsCookie.set(_product_cookie_json);
+</script>
+<!--右则内容 结束 左则内容 开始-->
+<aside class="sider fl">
+	 <!--相关服务开始(商品详情相关服务) -->
+<div class="column">
+    <h3 class="title_2"><i class="ico18"></i>服务推荐</h3>
+    <div  class="box_2">
+    	<ul class="tList_1 tList_9">
+	         		  <li >
+		         		  	<img src="/upfile/images/v2012_cms/products/FLOW_QUERY-small.jpg?ver=20140319161326"  "/>
+	         		  <a href="/my/FLOW_QUERY.shtml"  class="color_2" title="流量管家" >
+                        	流量管家
+	         		  </a>
+	         		  </li>
+	         		  <li  class="end">
+		         		  	<img src="/upfile/images/v2012_cms/products/QUERYSERVERFUNC-small.png?ver=20121211193819"  "/>
+	         		  <a href="/my/QUERYSERVERFUNC.shtml"  class="color_2" title="已办业务" >
+                        	已办业务
+	         		  </a>
+	         		  </li>
+            </ul>
+     </div> 
+</div>
+
+
+	 <!-- 相关服务结束，相关产品推荐开始(商品详情相关产品推荐) -->
+<div class="column">
+    <h3 class="title_2"><i class="ico3"></i>相关商品推荐</h3>
+    <div  class="box_2">
+    	<ul class="tList_1 tList_5">
+	         		  <li >
+		         		  	<img src="/upfile/images/v2012_cms/products/4GSJLL-icon.jpg?ver=20140116151644"  alt="手机流量套餐"/>
+	         		  <a href="/commodity/options/detail/4GSJLL.shtml"  class="color_2" title="手机流量套餐" >
+                        	手机流量套餐
+	         		  </a>
+	         		  </li>
+	         		  <li >
+		         		  	<img src="/upfile/images/v2012_cms/products/4GSW-icon.jpg?ver=20151231155934"  alt="4G上网套餐"/>
+	         		  <a href="/commodity/options/detail/4GSW.shtml"  class="color_2" title="4G上网套餐" >
+                        	4G上网套餐
+	         		  </a>
+	         		  </li>
+	         		  <li >
+		         		  	<img src="/upfile/images/v2012_cms/products/10GPRSXS-icon.jpg?ver=20150630164704"  alt="手机流量10元夜间套餐（闲时2048M）"/>
+	         		  <a href="/commodity/options/detail/10GPRSXS.shtml"  class="color_2" title="手机流量10元夜间套餐（闲时2048M）" >
+                        	手机流量10元夜间套
+	         		  </a>
+	         		  </li>
+	         		  <li  class="end">
+		         		  	<img src="/upfile/images/v2012_cms/products/GJSW369-icon.jpg?ver=20140127153149"  alt="国际及港澳台漫游上网3元/6元/9元新资费"/>
+	         		  <a href="/commodity/options/detail/GJSW369.shtml"  title="国际及港澳台漫游上网3元/6元/9元新资费" >
+                        	国际及港澳台漫游上网
+	         		  </a>
+	         		  </li>
+            </ul>
+     </div> 
+</div>
+	 <!-- 相关产品推荐结束，相关产品热门推荐开始(商品详情相关产品热门推荐)-->
+<div >
+</div>
+
+	
+	  <!--相关产品热门推荐 结束  我的浏览记录 开始-->
+<section class="column" id="users_history_section">
+<h3 class="title_2"><i class="ico1"></i>我的浏览记录</h3>                      	        	
+                <div  class="box_2">
+  					<ul class="tList_1 tList_5" id="users_products_history">
+                    </ul>
+				</div>
+</section>
+<script type="text/javascript">
+var productsCookieShow=function (){
+	var json=ProductsCookie.get();
+	//alert($.toJSON(json));
+	var isDefault=0;
+	if(typeof(json.VO)!='undefined'){//VO判断
+		var jsonAry=json.VO;//存的数组
+		var len=jsonAry.length;
+		var htmlStr='';
+		for(var i=0;i<len;i++){
+			var vo=jsonAry[i];
+			if(i+1==len){
+				htmlStr+='<li class="end">';
+			}else{
+				htmlStr+='<li>'
+			}
+			if(vo.icon==""||vo.icon=='null'){
+				htmlStr+='<img src="/images/v2012/public/default_19x19.jpg"  alt="暂无图片"/>';
+			}else{
+				htmlStr+='<img src="'+vo.icon+'"  alt="'+vo.bizName+'"/>';
+			}
+			var maxLen=10;
+			var bizName=$.trim(vo.bizName);
+			var bizNameLen=bizName.length;
+			if(bizNameLen>maxLen){
+			    bizName=bizName.substr(0,maxLen-1);
+			}
+			if(i+1<=3){
+				htmlStr+='<a href="'+vo.url+'" title="'+vo.bizName+'" class="color_2">'+bizName+'</a>';
+			}else{
+				htmlStr+='<a href="'+vo.url+'" title="'+vo.bizName+'" >'+bizName+'</a>';
+			}
+			htmlStr+='</li>';
+		}//for
+		//alert(htmlStr);
+		 if(len>0&&htmlStr!=''){
+			$("#users_products_history").html(htmlStr);
+		 }else{
+		    isDefault=1;
+		 }
+	 }else{
+	    isDefault=1;
+	 }
+	 
+	 if(isDefault==1){
+	   $("#users_products_history").html("<span style='display:block; padding:15px 0; color:#999; text-align:center;'>暂无浏览记录</span>");	 
+	 }
+	 
+};
+productsCookieShow();
+</script>  
+
+
+	 <!--我的浏览记录结束 相关服务开始-->
+<span id="productdetailRelatedServices"></span>
+<script language="javascript">
+jQuery(function(){
+      loadData("/include/v2012_cms/related_services/"+cookieBranch+"_productdetail.shtml","productdetailRelatedServices");
+ });
+</script>
+
+     <!--相关服务结束 左侧广告开始-->
+<div id="leftAd"></div>
+<script>
+jQuery(function(){
+	loadAd('/include/v2012_cms/advert/leftAdvert/'+cookieBranch+'_products.shtml','leftAd');
+});
+</script>
+
+     <!--左侧广告结束-->
+</aside>
+<!--左则内容 结束-->    
+</section><!--container-->
+<script language="javascript" type="text/javascript">
+toTop();	//返回顶站按钮
+</script>
+<!--主内容结束 帮助中心 开始-->
+<script type="text/javascript" src="/js/v2012/ui/bottomLink.js"></script>
+<script type="text/javascript">
+        loadBottomLink(5); //5表示产品区
+</script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+		//加载适用品牌
+		Commodity.getSuitableBrand(commCode,"SuitableBrand");
+		//加载适用地市
+		Commodity.getSuitableBranch(commCode,"SuitableBranch");
+		Commodity.isLogin();
+}); 
+</script>
+<!--帮助中心 结束  底部 开始-->
+﻿<style>
+/*页脚*/
+.footer a:hover{text-decoration:underline;color:#007bc7;}
+.footer a:active{color:#007bc7;}
+.footer{width:1000px;margin:0 auto;}
+.footcon{float:left;width:100%;padding:20px 0;}
+.footcon p{line-height:33px;text-align:center;}
+.footcon .xuke{line-height:18px; padding:4px 0 0 0;}
+.copytop{margin:15px 0 0 0;}
+.footgov {margin: 10px auto; text-align: left; width: 300px;}
+.footgov .gov { background: url("/gd_tail/images/gov.gif") no-repeat; line-height: 25px;  margin:12px 0 0 0;  padding: 0 0 0 25px;  width: auto;}
+.footgov span { float: left;}
+.footgov .govtxt { float: left; padding: 0 0 0 20px; width: 150px;}
+.footgov .govtxt2 { padding: 0 0 0 10px; }
+
+</style><!--主内容 结束  底部 开始-->
+<div id="gd_tail"><div class="footer"><div class="footcon"><p><a href="http://www.10086.cn/aboutus/news/">新闻中心</a><span>&nbsp;|&nbsp;</span><a href="http://job.10086.cn/">诚聘英才</a><span>&nbsp;|&nbsp;</span><a href="http://b2b.10086.cn/">采购信息</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/aboutus/hezuo/">企业合作</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/contact/">联系我们</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/navigation/">站点导航</a><span>&nbsp;|&nbsp;</span><a href="http://labs.chinamobile.com/" target="_blank">中国移动研究院</a><span>&nbsp;|&nbsp;</span><a href="http://www.cmdi.chinamobile.com/" target="_blank">中国移动设计院</a><span>&nbsp;|&nbsp;</span><a href="http://www.gd.10086.cn/sitemap">网站地图</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/links/">友情链接</a></p><p><span>&nbsp;</span><span>掌上营业厅：</span><a href="http://wap.10086.cn">wap.10086.cn</a><span>&nbsp;语音自助服务：10086  短信营业厅：10086&nbsp;</span><a href="http://www.10086.cn/support/channel/self_service/">自助终端</a><span>&nbsp;</span><a href="http://www.10086.cn/support/channel/Entity1/">营业厅</a><span>&nbsp;</span><a href="http://www.10086.cn/cmccclient/index.htm">手机营业厅下载</a></p><p class="xuke">Copyright©1999-2016&nbsp;&nbsp;中国移动&nbsp;&nbsp;版权所有</p><p class="xuke"><span>中华人民共和国增值电信业务经营许可证&nbsp;&nbsp;经营许可证编号：A2.B1.B2-20100001</span></p></div><div class="footgov"><div id="KXWZ" class="kxyz"><span><a id="urlknet" href="https://ss.knet.cn/verifyseal.dll?sn=e130905110100423008ilb000000&amp;pa=500267" target="_blank"><img alt="&amp;#x53EF;&amp;#x4FE1;&amp;#x7F51;&amp;#x7AD9;" name="KNET_seal" src="/gd_tail/images/knetSealLogo.png" onclick="KNET_change('urlknet')"></a></span></div><div class="govtxt"><p class="gov"><a href="http://www.miibeian.gov.cn/">京ICP备05002571号</a></p></div></div></div></div>
+
+<!--[if ie 6]>
+<style>
+    div.footer p.gov a.credible {left:-165px;}  /*可信网站图标ie6下的定位*/
+</style>
+<![endif]-->
+
+<script type="text/javascript">
+(function(){
+    'use strict';
+
+    return false;
+
+    var addEvt = function(elm, en, func){
+        if( !elm ) return ;
+        elm.attachEvent ? elm.attachEvent('on' + en, func, false) : elm.addEventListener ? elm.addEventListener(en, func, false) : (elm['on' + en] = func);
+    };
+
+    var footerElem;
+    var divs = document.body.getElementsByTagName('div');
+    for(var i=divs.length-1;i>=0;i--){
+        if( divs[i].className == 'footer' ){
+            footerElem = divs[i];
+            break;
+        }
+    }
+
+    if( !footerElem )
+        return ;
+
+    /*首页样式调整*/
+    var outlinksDiv = footerElem.children && footerElem.children[0];
+    if( outlinksDiv.nodeType != 1 )
+        outlinksDiv = footerElem.children[1];
+    if( location.pathname == '/' ||  location.pathname == '/index.shtml'){
+        var ps = footerElem.getElementsByTagName('p');
+        for(i=ps.length-1;i>=0;i--){
+            ps[i].style.fontFamily = '\u5B8B\u4F53,Arial,serif';
+        }
+    }else{
+        footerElem.style.marginTop = '5px';
+        addEvt(outlinksDiv, 'mouseover', function(evt){
+            outlinksDiv.children[1].style.visibility = 'visible';
+        });
+        addEvt(outlinksDiv, 'mouseout', function(evt){
+            var elm = evt.srcElement || evt.target;
+
+            outlinksDiv.children[1].style.visibility = 'hidden';
+        });
+    }
+})();
+</script>
+<script language="javascript" type="text/javascript" src="/js/v2012/ui/insdc.js"></script>
+<script language="javascript" type="text/javascript" src="https://www.10086.cn/images/js/portal/sdc_GD.js"></script>
+<script language="javascript" type="text/javascript" src="/js/v2012/datePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="http://static.gridsumdissector.com/js/Clients/GWD-002231-A5B9A2/gs.js"></script>
+<script language="javascript" src="/js10086/pv_uv.js"></script>
+
+<!--底部 结束-->
+
+
+<!--底部 结束-->
+</body>
+</html>
