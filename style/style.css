@@ -90,6 +90,11 @@ header{
     font-size:12px;
 
 }
+.cloud_mask{
+    margin:0 auto;
+    width:1366px;
+    position: relative;
+}
 .cloud_mask img{
     position: absolute;
     z-index: -999;
@@ -115,6 +120,11 @@ header{
     left:200px;
 }
 /***top-bar***/
+
+.top_barcon{
+    width:1230px;
+    margin:0 auto;
+}
 .top_bar{
     color:#6e8095;
     background-color: white;
@@ -133,12 +143,10 @@ header{
 }
 .top_left_ul>li:nth-child(1){
     border-right:1px solid #a1e0fd;
-    margin-left:60px;
 }
 
 .top_right_ul{
     float: right;
-    margin-right:60px
 }
 
 .top_right_ul>li{
@@ -236,8 +244,12 @@ header{
     animation:hovershow 0.5s 1 ease-out;
 }
 /*****logo-bar**********/
+.logo_bar{
+    width:1230px;
+    margin:0 auto;
+}
 .logo_bar>img{
-    margin: 20px 0 20px 57px;
+    margin: 20px 0 20px 0;
     cursor: pointer;
 }
 
@@ -540,11 +552,15 @@ header{
 }
 
 /***********4G-area*********/
+.part_4G{
+    margin:0 auto;
+    width: 1230px;
+}
 .title_4G {
-    margin:20px 0 0 60px;
+    margin:20px 0 0 0px;
 }
 .part_4G ul{
-    width:90%;
+    width:100%;
     margin:0 auto;
     margin-top:38px;
 }
@@ -597,9 +613,13 @@ li.items_bottom:nth-child(5){
 
 
 /*********phone_area**********/
+.part_phone{
+    width:1230px;
+    margin:0 auto;
+}
 .part_phone ul{
     width:1080px;
-    margin-left:119px;
+    margin-left:52px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -656,10 +676,17 @@ li.items_bottom:nth-child(5){
 
 /**********business***********/
 .footer{
-    background: url(../images/main-content/city.png)  no-repeat;
     margin-top: 30px;
     height: 1000px;
-    background-color: #342A2A;
+    background:linear-gradient(to bottom,#A1E0FD 0%,#A1E0FD 50.9%,#1D1818 50.9001%,#1D1818 55.45%,#342A2A 55.450001%,#342A2A 100%);
+    position: relative;
+    display: flex;
+}
+.footcon{
+    margin:0 auto;
+    width:1366px;
+    background: url(../images/main-content/city.png)  no-repeat;
+
 }
 
 .footer_notice{
